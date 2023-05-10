@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "984798617099",
+    "project_id": "groove-a6092",
+    "storage_bucket": "groove-a6092.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984798617099:android:5ad658735bf1d285e0710e",
+        "android_client_info": {
+          "package_name": "com.example.groove"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984798617099-t0u2rs42n1tnmg7tv4ooopi530hg1ri4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLtksTZZ3Lym4WwIuWKH8kwaDMNAGI2fU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984798617099-ofipl0ovvlh85rld5nrntt9eujdsvd4r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -30,6 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  firebase_core: ^2.11.0
+  firebase_auth: ^4.5.0
+  google_sign_in: ^6.1.0
+  provider: ^6.0.5
+  font_awesome_flutter: ^10.4.0
 
 
   # The following adds the Cupertino Icons font to your application.
@@ -74,12 +79,21 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
+  fonts:
+    - family: Mainfont
+      fonts:
+        - asset: fonts/Mainfont/SF-Pro-Text-Ultralight.otf
+          weight: 400
+        - asset: fonts/Mainfont/SF-Pro-Text-Thin.otf
+          weight: 500
+        - asset: fonts/Mainfont/SF-Pro-Text-Regular.otf
+          weight: 600
+        - asset: fonts/Mainfont/SF-Pro-Text-Medium.otf
+          weight: 700
+        - asset: fonts/Mainfont/SF-Pro-Text-Semibold.otf
+          weight: 800        
+        - asset: fonts/Mainfont/SF-Pro-Text-Bold.otf
+          weight: 900
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
